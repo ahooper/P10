@@ -1,0 +1,12 @@
+// source_filename = "std/io/RandomAccessIO.p" ; 2019-03-10T15:07:09.699
+#fileRef int
+close()
+read(buffer byte[],offset int,length int)int
+write(buffer byte[],offset int,length int)int
+skip(length int)
+getPointer()long
+seek(position long)
+length()long
+setLength(newLength long)
+read(buffer byte[])int
+write(buffer byte[])int

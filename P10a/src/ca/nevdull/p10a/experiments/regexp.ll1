@@ -1,0 +1,9 @@
+regexp:		choice .
+choice:		sequence ( '|' sequence )* .
+sequence:	( item repeat? )* .
+repeat:		'?'
+|			'*'
+|			'+' .
+item:		'(' choice ')'
+|			'.'
+|			[^.(|?] .

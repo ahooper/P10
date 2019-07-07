@@ -1,0 +1,37 @@
+// source_filename = "std/lang/Array.p" ; 2019-03-10T15:07:05.823
+length int
+booleans static(length int)boolean[]
+bytes static(length int)byte[]
+chars static(length int)char[]
+doubles static(length int)double[]
+floats static(length int)float[]
+ints static(length int)int[]
+longs static(length int)long[]
+shorts static(length int)short[]
+Objects static(length int)Object[]
+copy static(src boolean[],srcPos int,length int,dest boolean[],destPos int)
+copy static(src byte[],srcPos int,length int,dest byte[],destPos int)
+copy static(src char[],srcPos int,length int,dest char[],destPos int)
+copy static(src double[],srcPos int,length int,dest double[],destPos int)
+copy static(src float[],srcPos int,length int,dest float[],destPos int)
+copy static(src int[],srcPos int,length int,dest int[],destPos int)
+copy static(src long[],srcPos int,length int,dest long[],destPos int)
+copy static(src short[],srcPos int,length int,dest short[],destPos int)
+copy static(src Object[],srcPos int,length int,dest Object[],destPos int)
+copyOf static(a boolean[],pos int,length int)boolean[]
+copyOf static(a byte[],pos int,length int)byte[]
+copyOf static(a char[],pos int,length int)char[]
+copyOf static(a double[],pos int,length int)double[]
+copyOf static(a float[],pos int,length int)float[]
+copyOf static(a int[],pos int,length int)int[]
+copyOf static(a long[],pos int,length int)long[]
+copyOf static(a short[],pos int,length int)short[]
+copyOf static(a Object[],pos int,length int)Object[]
+copyOf static(a byte[])byte[]
+copyOf static(a char[])char[]
+copyOf static(a double[])double[]
+copyOf static(a float[])float[]
+copyOf static(a int[])int[]
+copyOf static(a long[])long[]
+copyOf static(a short[])short[]
+copyOf static(a Object[])Object[]

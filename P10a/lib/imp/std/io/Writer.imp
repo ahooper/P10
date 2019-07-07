@@ -1,0 +1,5 @@
+// source_filename = "std/io/Writer.p" ; 2019-03-10T15:07:10.643
+close()
+write(buffer byte[],offset int,length int)int
+write(buffer byte[])int
+write(buffer1 byte[],offset1 int,length1 int,buffer2 byte[],offset2 int,length2 int)int

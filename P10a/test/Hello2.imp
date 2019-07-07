@@ -1,0 +1,10 @@
+// source_filename = "Hello2.p" ; 2019-03-10T15:07:48.873
+import std.io.Writer
+import std.io.FileWriter
+import std.io.BufferedWriter
+import std.text.Formatter
+serial static int
+id int
+new()
+main static(args String[])int
+breakpoint static()

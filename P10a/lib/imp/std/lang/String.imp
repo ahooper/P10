@@ -1,0 +1,31 @@
+// source_filename = "std/lang/String.p" ; 2019-03-10T15:07:06.788
+#value byte[]
+#count int
+#offset int
+EMPTY static String
+new()
+new(str String)
+new(bytes byte[],offset int,count int)
+new(bytes byte[])
+byteSize()int
+byteAt(x int)byte
+charSize(c char)int
+charCount()int
+charAt(x int)char
+equals(str String)boolean
+isEmpty()boolean
+indexOf(str String)int
+indexOf(str String,fromIndex int)int
+indexOf(c char)int
+indexOf(c char,fromIndex int)int
+lastIndexOf(str String)int
+lastIndexOf(str String,fromIndex int)int
+lastIndexOf(c char)int
+lastIndexOf(c char,fromIndex int)int
+regionMatches(sIndex int,other String,oIndex int,len int)boolean
+startsWith(prefix String,sIndex int)boolean
+startsWith(prefix String)boolean
+endsWith(suffix String)boolean
+substring(begin int,end int)String
+substring(begin int)String
+unitTest static()

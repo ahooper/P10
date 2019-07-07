@@ -1,0 +1,4 @@
+// source_filename = "std/lang/Class.p" ; 2019-03-10T15:07:06.29
+#name String
+#instanceSize int
+getName()String

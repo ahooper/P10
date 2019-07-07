@@ -1,0 +1,11 @@
+// source_filename = "std/lang/System.p" ; 2019-03-12T14:17:44.999
+import std.io.FileWriter
+import std.io.BufferedWriter
+import std.io.Reader
+import std.io.Writer
+#standardInputRef static()int
+#standardOutputRef static()int
+#standardErrorRef static()int
+in static Reader
+out static BufferedWriter
+err static BufferedWriter

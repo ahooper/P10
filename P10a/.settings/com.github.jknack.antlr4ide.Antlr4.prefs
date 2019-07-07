@@ -1,0 +1,12 @@
+antlr4.antlrRegisteredTools=4.4@/var/folders/7c/zskjlfnx1vb2n21dn_0_ctdm0000gn/T/antlr-4.4-complete.jar\:4.4@/Users/andy/Software/java/\:null@/Users/andy/Software/ANTLR/antlr-4.5.1-complete.jar\:4.6@/Users/andy/Software/ANTLR/antlr-4.6-complete.jar
+antlr4.antlrToolPath=/Users/andy/Software/ANTLR/antlr-4.6-complete.jar
+antlr4.encoding=UTF-8
+antlr4.listener=false
+antlr4.visitor=true
+antlr4.vmArgs=
+autobuilding=true
+eclipse.preferences.version=1
+is_project_specific=true
+outlet.DEFAULT_OUTPUT.cleanupDerived=true
+outlet.DEFAULT_OUTPUT.derived=true
+outlet.DEFAULT_OUTPUT.directory=./src

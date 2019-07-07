@@ -1,0 +1,5 @@
+// source_filename = "std/lang/Throw.p" ; 2019-03-10T15:07:08.174
+arrayIndexFault static(value int)
+nullPointerFault static()
+switchIndexFault static(value int)
+stringIndexOutOfBoundsFault static(value int)

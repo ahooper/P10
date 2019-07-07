@@ -1,0 +1,6 @@
+// source_filename = "std/io/InterimIO.p" ; 2019-03-10T15:07:09.206
+putByte static(b int)int
+putChar static(c int)int
+print static(s String)
+print static(bytes byte[])
+print static(n int)

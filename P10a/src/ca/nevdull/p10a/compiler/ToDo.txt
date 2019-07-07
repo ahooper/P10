@@ -1,0 +1,64 @@
+emit debugging metadata
+interfaces
+✔︎ method resolution should prefer exact over implicit widening
+finalizer (destructor)
+is the 'defn' local really needed in the grammar?
+boolean storage type for C header
+omit default return if all paths do a return
+subscope shadowing for local variables
+widening non-numeric types
+any other conversions for array assignment?
+is @llvm.stacksave / @llvm.stackrestore relevant to locals in loops?
+iterator in for loop
+coercion of return type
+other member reference cases (e.g. .class)?
+ensure call of virtual method is not in a static method
+any widening conversions for ArrayType?
+cast other class raising and lowering
+cast lowering conversion, with subtype checking
+subtype test (instanceof)
+boxed primitives, with conversions
+what class compatibility for = comparisons?
+✔︎ operation assignments (+:, etc.)
+index or natural number type for positive integers to reduce bounds checks
+optional reference type to make explicit when null check is required
+simple scanner based on Snobol span(), break()
+general regular expression lexer
+constant definition ::
+
+✔︎ define standard imports by directory search
+✔︎ default superclass std_lang_Object
+use prerequisite compiled class result directly instead of via .imp file
+prevent mix static/virtual method definitions
+change definition to an error type to avoid useless messages after conflicting overload
+check initializer return type is omitted
+how to retrieve creator declaration in CodePass visitMethodDecl?
+override superclass creator
+constant expression evaluator for switch cases (EvalConstExp)
+additional overload matching (MethodSymbol)
+Unicode Identifier standard (grammar)
+✔︎ Hexadecimal floating point literals
+priority for dependent initializers
+decide about on-demand initialization versus mass initialization (currently doing both!)
+
+floating point formatting http://www.netlib.org/fp/dtoa.c, etc. https://github.com/ulfjack/ryu
+BufferedWriter alternate character recodings e.g. UTF-16
+
+https://github.com/apple/swift/blob/master/docs/ErrorHandlingRationale.rst
+
+catch block
+exception Identifier block
+...
+.
+
+create Identifier(...)
+vs. Identifier.new(...) 
+
+
+Output class hierarchy
+---
+Writer (byte array)
+FileWriter (file descriptor), StringWriter (String builder)
+BufferedWriter
+TextWriter (char & String), Recoder (alternate character encodings)
+Formatter (numeric decimal and hexadecimal, etc)

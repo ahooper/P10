@@ -1,0 +1,13 @@
+// source_filename = "std/io/BufferedWriter.p" ; 2019-03-10T15:07:08.675
+extends std.io.Writer
+#w Writer
+#buffer byte[]
+#count int
+new(sub Writer)
+new(sub Writer,bufferSize int)
+close()
+flush()
+write(b byte)
+write(c char)
+write(data byte[],offset int,length int)
+write(s String)

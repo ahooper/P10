@@ -1,0 +1,81 @@
+class std.io.ByteBuffer
+
+#buf byte[]
+#mrk int : -1
+#pos int : 0
+#lim int
+#cap int
+// 0 ≤ mrk ≤ pos ≤ lim ≤ cap
+
+/** Returns this buffer's capacity.
+ */
+capacity() int
+	return cap
+.
+
+/** Clears this buffer.
+ */
+clear()
+	pos : 0
+	lim : 0
+	mrk : -1
+.
+
+/** Returns this buffer's limit.
+ */
+limit() int
+	return lim
+.
+
+/** Sets this buffer's limit.
+ */
+limit(newLimit int) ByteBuffer
+	//TODO validate newLimit < cap
+	lim : newLimit
+	return this
+.
+
+/** Sets this buffer's mark at its position.
+ */
+mark() ByteBuffer
+	mrk : pos
+	return this
+.
+
+/** Returns this buffer's position.
+ */
+position() int
+	return pos
+.
+
+/** Sets this buffer's position.
+ */
+position(newPosition int) ByteBuffer
+//TODO
+	return this
+.
+
+/** Returns the number of elements between the current position and the limit.
+ */
+remaining() int
+	return lim - pos
+.
+
+/*
+abstract Object	array()
+// Returns the array that backs this buffer  (optional operation).
+abstract int	arrayOffset()
+// Returns the offset within this buffer's backing array of the first element of the buffer  (optional operation).
+Buffer	flip()
+// Flips this buffer.
+abstract boolean	hasArray()
+// Tells whether or not this buffer is backed by an accessible array.
+boolean	hasRemaining()
+// Tells whether there are any elements between the current position and the limit.
+abstract boolean	isReadOnly()
+// Tells whether or not this buffer is read-only.
+Buffer	reset()
+// Resets this buffer's position to the previously-marked position.
+Buffer	rewind()
+// Rewinds this buffer.
+*/

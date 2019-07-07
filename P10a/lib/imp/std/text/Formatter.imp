@@ -1,0 +1,15 @@
+// source_filename = "std/text/Formatter.p" ; 2019-03-10T15:07:11.149
+import std.io.BufferedWriter
+#writer BufferedWriter
+new(bw BufferedWriter)
+c(v char)Formatter
+s(v String,w int)Formatter
+s(v String)Formatter
+d(v int,w int)Formatter
+d(v int)Formatter
+d(v long,w int)Formatter
+d(v long)Formatter
+x(v int,w int)Formatter
+x(v int)Formatter
+x(v long,w int)Formatter
+x(v long)Formatter
